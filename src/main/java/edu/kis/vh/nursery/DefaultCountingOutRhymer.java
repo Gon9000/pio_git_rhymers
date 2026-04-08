@@ -21,7 +21,11 @@ public class DefaultCountingOutRhymer {
     public boolean isFull() {
         return total == (ARRAY_SIZE - 1);
     }
-        
+
+    public int getTotal() {
+        return total;
+    }
+
     protected int peekaboo() {
         if (callCheck())
             return EMPTY_CODE;
