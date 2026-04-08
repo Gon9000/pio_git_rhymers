@@ -7,7 +7,7 @@ public class DefaultCountingOutRhymer {
 
     final private int[] NUMBERS = new int[ARRAY_SIZE];
 
-    public int total = -1;
+    private int total = -1;
 
     public void countIn(int in) {
         if (!isFull())
