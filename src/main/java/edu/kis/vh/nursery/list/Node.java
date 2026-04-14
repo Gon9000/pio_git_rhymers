@@ -1,7 +1,7 @@
 package edu.kis.vh.nursery.list;
 
 public class Node {
-
+    // settery SetPrev i setNext są używane
     private int value;
     private Node prev;
     private Node next;
